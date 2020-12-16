@@ -1,9 +1,8 @@
 # ignore everything in the "wp-content" directory, except:
-# "mu-plugins", "plugins", "themes" directory
-wp-content/*
-!wp-content/mu-plugins/
-!wp-content/plugins/
-!wp-content/themes/
+# "plugins", "themes" directory
+*/
+!themes/
+!plugins/
 
-# ignore specific themes
-wp-content/themes/newsdot/
+themes/saxon-child-old
+themes/twentytwenty
